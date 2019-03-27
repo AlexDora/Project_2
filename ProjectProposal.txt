@@ -1,0 +1,10 @@
+#PROJECT 2
+
+TITLE: Obesity in 'x' region
+
+We want to show the levels of obesity in some region on the world divided by gender and age.
+We will locate the % of obesity in a map in which each % will be related with the size of the circles.
+We will use MySQL for the database.
+
+The purpose of the project is to show how obesity is distributed in different regions of a country and how it affects 
+people and with that aware institutions to create healthcare programs.
