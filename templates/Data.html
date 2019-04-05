@@ -1,0 +1,280 @@
+<!-- DATA HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+      <meta charset="latin-1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Obesity Data</title>
+	
+	<!--Bootstrap -->	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+    <!--FontStyle -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+	<!--CSS Link -->
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+
+<!--Navigation Bar -->
+	<div class="navigation_header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar_title" href="/">Obesity in Mexico</a>
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown_list" href="/map">Obesity Map<br/></a>
+              <a class="dropdown_list" href="/graphs">Obesity Graphics<br/></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/table">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<!-- Content of Data Page -->
+<div class="containerX">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">
+          <div class="page-header">
+            <h2 class="title">Data</h2>
+            <hr>
+            <p class="category" style="padding-top: 5px;">The following table contains the data used for plotting during this project.</p>
+            </div>
+            <div class="container table-responsive table-full-width">
+            <div class="row"><div class="col-md-12"><div class="panel panel-success"><div class="panel-heading "><h3 class="panel-title">Obesity in Mexico</h3></div>
+            <table border=1 class="table table-striped table-bordered table-hover table-condensed">
+            <thead><tr><th title="Field #1">entidad_name</th>
+            <th title="Field #2">Total Mujeres (en muestra)</th>
+            <th title="Field #3">Total Mujeres (con obesidad)</th>
+            <th title="Field #4">Total Hombres (en muestra)</th>
+            <th title="Field #5">Total Hombres (con obesidad)</th>
+            </tr></thead>
+            <tbody><tr><td>Aguascalientes</td>
+            <td align="center">637</td>
+            <td align="center">540</td>
+            <td align="center">522</td>
+            <td align="center">370</td>
+            </tr>
+            <tr><td>Baja California</td>
+            <td align="center">528</td>
+            <td align="center">447</td>
+            <td align="center">448</td>
+            <td align="center">297</td>
+            </tr>
+            <tr><td>Baja California Sur</td>
+            <td align="center">551</td>
+            <td align="center">483</td>
+            <td align="center">478</td>
+            <td align="center">355</td>
+            </tr>
+            <tr><td>Campeche</td>
+            <td align="center">701</td>
+            <td align="center">622</td>
+            <td align="center">618</td>
+            <td align="center">424</td>
+            </tr>
+            <tr><td>Chiapas</td>
+            <td align="center">567</td>
+            <td align="center">491</td>
+            <td align="center">550</td>
+            <td align="center">384</td>
+            </tr>
+            <tr><td>Chihuahua</td>
+            <td align="center">633</td>
+            <td align="center">539</td>
+            <td align="center">463</td>
+            <td align="center">325</td>
+            </tr>
+            <tr><td>Ciudad de Mexico</td>
+            <td align="center">673</td>
+            <td align="center">541</td>
+            <td align="center">548</td>
+            <td align="center">273</td>
+            </tr>
+            <tr><td>Coahuila</td>
+            <td align="center">516</td>
+            <td align="center">444</td>
+            <td align="center">436</td>
+            <td align="center">313</td>
+            </tr>
+            <tr><td>Colima</td>
+            <td align="center">602</td>
+            <td align="center">521</td>
+            <td align="center">458</td>
+            <td align="center">337</td>
+            </tr>
+            <tr><td>Durango</td>
+            <td align="center">598</td>
+            <td align="center">503</td>
+            <td align="center">433</td>
+            <td align="center">316</td>
+            </tr>
+            <tr><td>Estados de Mexico</td>
+            <td align="center">644</td>
+            <td align="center">541</td>
+            <td align="center">469</td>
+            <td align="center">308</td>
+            </tr>
+            <tr><td>Guanajuato</td>
+            <td align="center">746</td>
+            <td align="center">615</td>
+            <td align="center">508</td>
+            <td align="center">290</td>
+            </tr>
+            <tr><td>Guerrero</td>
+            <td align="center">720</td>
+            <td align="center">581</td>
+            <td align="center">470</td>
+            <td align="center">263</td>
+            </tr>
+            <tr><td>Hidalgo</td>
+            <td align="center">675</td>
+            <td align="center">569</td>
+            <td align="center">508</td>
+            <td align="center">354</td>
+            </tr>
+            <tr><td>Jalisco</td>
+            <td align="center">658</td>
+            <td align="center">542</td>
+            <td align="center">484</td>
+            <td align="center">301</td>
+            </tr>
+            <tr><td>Michoacan</td>
+            <td align="center">698</td>
+            <td align="center">603</td>
+            <td align="center">520</td>
+            <td align="center">345</td>
+            </tr>
+            <tr><td>Morelos</td>
+            <td align="center">667</td>
+            <td align="center">573</td>
+            <td align="center">472</td>
+            <td align="center">305</td>
+            </tr>
+            <tr><td>Nayarit</td>
+            <td align="center">659</td>
+            <td align="center">551</td>
+            <td align="center">448</td>
+            <td align="center">297</td>
+            </tr>
+            <tr><td>Nuevo Leon</td>
+            <td align="center">605</td>
+            <td align="center">523</td>
+            <td align="center">490</td>
+            <td align="center">359</td>
+            </tr>
+            <tr><td>Oaxaca</td>
+            <td align="center">810</td>
+            <td align="center">630</td>
+            <td align="center">542</td>
+            <td align="center">265</td>
+            </tr>
+            <tr><td>Puebla</td>
+            <td align="center">685</td>
+            <td align="center">553</td>
+            <td align="center">432</td>
+            <td align="center">253</td>
+            </tr>
+            <tr><td>Queretaro</td>
+            <td align="center">650</td>
+            <td align="center">547</td>
+            <td align="center">496</td>
+            <td align="center">290</td>
+            </tr>
+            <tr><td>Quintana Roo</td>
+            <td align="center">663</td>
+            <td align="center">564</td>
+            <td align="center">482</td>
+            <td align="center">316</td>
+            </tr>
+            <tr><td>San Luis Potosi­</td>
+            <td align="center">693</td>
+            <td align="center">560</td>
+            <td align="center">534</td>
+            <td align="center">300</td>
+            </tr>
+            <tr><td>Sinaloa</td>
+            <td align="center">512</td>
+            <td align="center">428</td>
+            <td align="center">433</td>
+            <td align="center">298</td>
+            </tr>
+            <tr><td>Sonora</td>
+            <td align="center">566</td>
+            <td align="center">493</td>
+            <td align="center">505</td>
+            <td align="center">356</td>
+            </tr>
+            <tr><td>Tabasco</td>
+            <td align="center">706</td>
+            <td align="center">622</td>
+            <td align="center">580</td>
+            <td align="center">400</td>
+            </tr>
+            <tr><td>Tamaulipas</td>
+            <td align="center">584</td>
+            <td align="center">508</td>
+            <td align="center">499</td>
+            <td align="center">357</td>
+            </tr>
+            <tr><td>Tlaxcala</td>
+            <td align="center">754</td>
+            <td align="center">612</td>
+            <td align="center">537</td>
+            <td align="center">342</td>
+            </tr>
+            <tr><td>Veracruz</td>
+            <td align="center">737</td>
+            <td align="center">618</td>
+            <td align="center">524</td>
+            <td align="center">306</td>
+            </tr>
+            <tr><td>Yucatan</td>
+            <td align="center">700</td>
+            <td align="center">615</td>
+            <td align="center">577</td>
+            <td align="center">377</td>
+            </tr>
+            <tr><td>Zacatecas</td>
+            <td align="center">617</td>
+            <td align="center">521</td>
+            <td align="center">456</td>
+            <td align="center">290</td>
+            </tr>
+            </tbody></table>
+            </div></div></div>      
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap para el dropdown -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

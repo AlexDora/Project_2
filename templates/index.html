@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Obesity Analysis	</title>
+	
+	<!--Bootstrap -->	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <!--FontStyle -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+	<!--CSS Link -->
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+
+	<!--Navigation Bar -->
+	<div class="navigation_header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar_title" href="index.html">Obesity in Mexico</a>
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown_list" href="/map">Obesity Map<br/></a>
+              <a class="dropdown_list" href="/graphs">Obesity Graphics<br/></a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/table">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Content of the Page -->
+  <div class="containerX">
+    <div class="row">
+      <div class="col-lg-7 col-md-10">
+        <!-- Description  -->
+        <div class="box2" >
+          <h2 class="title">Obesity</h2>
+          <hr>
+          
+          <p>Obesity is a chronic, complex and multifactorial disease that usually begins in childhood and adolescence, that has its origin in a genetic and environmental interaction, is the most prevalent metabolic disease in the western world being a source of great morbidity and mortality.</p>
+          <p>So when we talk about obesity We do it as a serious thing.</p>
+          <p>The purpose of the project is to show how obesity is distributed in different regions of a country and how it affects 
+			people and with that aware institutions to create healthcare programs.</p>
+        </div>
+      </div>
+      <!-- Graphs Visualization -->
+      <div class="col-lg-5 col-md-12">
+        <div class="box1">
+          <h4 class="title">Visualizations</h4>
+          <hr>
+          <div class="containerX">
+            <div class="row">
+              <div class="col-6">
+                <a href="/map">
+                 <img class="panel" src="../static/images/map.png" alt="Latitude vs. Max Temperature">
+                </a>
+                <figcaption class = "graphs_titles">Obesity Map</figcaption>
+              </div>
+              <div class="col-6">
+                <a href="/graphs">
+                  <img class="panel" src="../static/images/newplot.png" alt="Obesity Graphics">
+                </a>
+                <figcaption class = "graphs_titles">Obesity Graphics</figcaption>
+              </div>
+            </div>
+              <div class="col-6">
+              </div>
+              <div class="col-6">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap para el dropdown -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
